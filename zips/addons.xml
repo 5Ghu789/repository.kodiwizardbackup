@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.kodiwizard" name="Team Wizard" version="4.0" provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hello</summary>
+    <description lang="en">Get access to Kodi Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.5mincrafts" name="5-Minute Crafts" version="1.5" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">5-Minute Crafts</summary>
+        <description lang="en_GB">Fun diy-projects, crafts, experience the joy of doing it yourself!</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with 5-Minute Crafts</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.adamsavagetested" name="Adam Savages Tested"	version="1.3"	provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="ngb.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">This is the Youtube series hosted by ex mythbuster Adam Savage, some episodes contain science, maths, locgial thinking theories so please be warned :)</summary>
+    <description lang="en">This is the Youtube series hosted by ex mythbuster Adam Savage, some episodes contain science, maths, locgial thinking theories so please be warned :)  links are are all freely available on the internet.  We have just packaged it together in addon form.  Enjoy folks</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.allblacks" name="All Blacks" version="2.1" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="allblacks.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">All Blacks</summary>
+        <description lang="en_GB">Official YouTube channel for The All Blacks New Zealand Rugby Team</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>This Addon is a 3rd party addon not made or endorsed by The All Blacks</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ArawakTV" name="Arawak • TV" version="2.6" provider-name="Simply Caz | CazWall.com">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="repository.simplycaz" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Arawak • TV | CazWall.com</summary>
+		<description lang="en">Simply Caz, assisted by TeamX, created this add-on for all Caribbean / African viewers. It's in no way or form perfect, but it will play as a central hub for many Caribbean / African Live TV channels, Radio Stations and Video on Demand. "Peace in the Caribbean, peace in the Middle East and to God be the Glory!" </description>
+		<disclaimer lang="en">This is not an official KODI add-on, nor do CazWall.com own the streams. All of these links are available on the internet. Lots of research was only done to get them.</disclaimer>
+		<platform>all</platform>
+		<website>http://CazWall.com</website>
+		<email>support-team@cazwall.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-06.jpg</screenshot>
+		</assets>
+		<news>
+- Live TV and Radio Countries -
+Africa (Bonus),  Antigua, Bahamas, Barbados, Cuba, Curacao, Grenada, Guyana, Haiti, Jamaica, Puerto Rico,  St. Kitts and Nevis, St. Lucia, St. Vincent and Trinidad and Tobago, Turks and Caicos (Radio Only)
+
+- Bonus Live TV -
+Africa, U.S.A located at the bottom of Live TV.
+
+- 5,000+ Nollywood African Movies
+- OTHER VOD: Movies and Documentaries
+- Workout / Fitness Videos
+- Caribbean Music on Demand
+		</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bathurstv8sc" name="Classic Bathurst 1000 races"	version="1.2"	provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="ngb.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Bathurst 1000 Races from the V8SC race series</summary>
+    <description lang="en">For those who love the Bathurst 1000 from the V8SC race series.  All videos are not hosted by us so if they go down or are not great quailty we apologise but we are just providing them to you in an easy to view format</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.befityoutube" name="BeFiT" version="2.0" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="qazwsxedc.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">BeFit Youtube</summary>
+        <description lang="en_GB">Get high-quality workouts and re-shape your body from head to toe with BeFit! Transform yourself with top fitness trainers like Denise Austin, Jane Fonda, Billy Blanks Jr., Scott Herman, Keaira LaShae and more. Take these result driven workouts with you anywhere to slim your waistline, challenge the abs and tone your arms, legs, chest, shoulders and booty with some of the best in the business. Are you ready to be fit? Subscribe for updates and become your best today with BeFit!</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with BeFit Youtube/befit.com</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.britech" name="Britec" version="1.0" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Britec</summary>
+        <description lang="en_GB">Hardware Review, Sofware Review, Computer Builds, Malware Removal, Computer Repair. "Tech Review" "Product Review" Tutorials How-to "Custom Computer Builds" "Computer Builds" "Hardware Reviews" "Malware Removal" "Ransomware Removal" "Software Review" "PC Repair" "Hardware Repair" Trouble
+
+Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Troubleshooting and Repair videos to help those to help them selfs on how to fix computers.</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with Brictech</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ChristianTV" name="Christian • TV" version="2.2" provider-name="Simply Caz | CazWall.com">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="repository.simplycaz" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+				<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Christian • TV | CazWall.com</summary>
+		<description lang="en">This add-on will allow you to watch about 147+ Christian Live TV Channels, Movies on Demand, Sermons on Demand and Christian YouTube Channels on Demand. "Peace in the Caribbean, peace in the Middle East and to God be the Glory!"</description>
+		<disclaimer lang="en">This is not an official KODI add-on, nor do CazWall.com own the streams. All of these links are available on the internet. Lots of research was only done to get them.</disclaimer>
+		<platform>all</platform>
+		<website>http://CazWall.com</website>
+		<email>support-team@cazwall.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-06.jpg</screenshot>
+		</assets>
+		<news>
+- Live TV and Radio  Networks -
+Angel TV (13 Channels), TBN (10 Channels), 3ABN (8 Channels | 2 Radio Stations), EWTN (8 Channels and 3 Radio Stations), Hope TV (7 Channels), Gospel Ministries International (6 Channels), God TV (5 Channels), CBN (3 Channels), Harvest TV (3 Channels) LLBN (3 Channels), SBN - Sonlife Broadcasting Network (3 Channels), Good News TV (2 Channels), Devine TV (2 Channels), Filmon TV (27 Channels), Daystar, The Impact Network, ADtv - Amazing Discoveries TV, AFTV - Amazing Facts TV, The Word Network, Shine TV (New Zealand), Firstlight (New Zealand), MTM HD (Jamaica),  Dove HD (Africa), Emmanuel TV (Africa), Loveworld Plus (Africa), SBN Telecadena (Puerto Rico), CDM TV (Puerto Rico), EBN TV (Puerto Rico), Teleadoracion (Puerto Rico), Unico TV (Puerto Rico), Salt + Light Catholic Media (Canada), GLC God Learning Channel, Apostolic Oneness, Cornerstone TV, CTN, GCN TV, Pastor Melissa Scott, CYC Christian Youth Channel, The Way TV, Al Kalema TV Network, KTO, Tele Louange, Shalom TV, Christ TV - Arabic, Life Church, His Channel, Family Friendly TV, Miracle Channel, Inspiration TV, NRB Network, Spirit TV, UCB - United Christian Broadcasts, and more!
+
+- Christian Movies in English, Spanish and Kids Selection
+- Christian YouTube for on Demand Sermons, Bible Studies and insightful information about the Bible.
+		</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.FailArmy" name="FailArmy" version="2.2" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="failarmy.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">FailArmy Youtube</summary>
+        <description lang="en_GB">FailArmy is the world’s number one source for epic fail videos and hilarious compilations. We’re powered by fan submissions and feedback from all around the world, with over 30 million fans across digital platforms.
+		</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with FailArmy</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.kidsyoutube" name="Youtube Kids" version="3.5" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kids Youtube Videos</summary>
+		<description lang="en">Get Access to Loads of Kids Content from Youtube </description>
+		<disclaimer lang="en">Third party unoffical Kodi Addon not made or endorsed by Youtube</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.kodiyoutubers" name="[COLOR white]Kodi Youtubers[/COLOR]"	version="2.0"	provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="ngb.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Youtuber's</summary>
+    <description lang="en">Here you will find all your Kodi youtubers</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.listloader322" name="List Loader" version="2.1" provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Add custom lists</summary>
+    <description lang="en">Add Custom Lists</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.matt3756" name="Matt3756" version="2.5" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="qazwsxedc.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Matt3756 Youtube</summary>
+        <description lang="en_GB">Hey it's Matt3756, welcome to my claw machine and arcade channel! Here we play arcade games, claw machines, coin pushers, carnival games + more! I also show you how these arcade games work and how to win at some of them! Whether it's tickets, money or claw machine plush, I'm always in it to win the jackpot! No need for hacks or cheats as I just use my skill to come out a winner at these arcade games! It all started with the claw machine and expanded from there - hope to enjoy what is to come from my arcade channel!
+		</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with Matt3756 Youtuber</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.mychurch" name="Church Online" version="3.0" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Church Online</summary>
+        <description lang="en_GB">We are a non denomination church that has a passion for interacting with people all over the world. Every Sunday we broadcast live and give you the ability to chat with a pastor and submit prayer request. Come join us and experience church like never before.</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with Church Online</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.nbcnews" name="NBC News" version="1.1" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">NBC News</summary>
+        <description lang="en_GB">The official NBC News YouTube Channel is a leading source of global news and information. Here you will find clips from NBC Nightly News, Meet The Press, and our original series Debunker, Flashback, Nerdwatch, and Show Me. Subscribe to our channel for news stories, technology, politics, health, entertainment, science, business, and exclusive NBC investigations. </description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with NBC News</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.nelkfilmz" name="NELK" version="3.2" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Nelkfilmz</summary>
+		<description lang="en">NELK Youtube Channel We prank people sometimes..   Toronto, Canada</description>
+	    <disclaimer lang="en">Thrid party unoffical NELK Addon not made or Endorsed by NELK</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.nz.freeview" name="IPTV NZ" provider-name="MattHuisman.nz" version="0.7.0">
+  <requires>
+    <import addon="script.module.matthuisman"/>
+    <import addon="repository.matthuisman"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Easily watch your favourite NZ IPTV streams</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/06/nz-freeview-kodi-add-on.html</website>
+    <news>0.7.0 #b62fe52 (17/07/2018)
+- Update for new settings
+- Disable view cache
+- Update to work with renamed test
+- UPDATE cache
+- Migrate to new module</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.NZtv3vod"
+       name="NZ TV3 VOD Content"
+       version="2.1"
+       provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Unoffical New Zealand TV3 VOD addon</summary>
+    <language>en</language>
+    <description lang="en">This addon scrapes the New Zealand TV3 website for the VOD content and brings it to you on kodi  we did was bring this content to you from the internet.  Shout outs to NoobsAndNerds for pointing me in the right direction (whufclee) and Pipcan for the base code of this addon along with his regex tutorial on Youtube</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.onenewsnz" name="One News" version="1.2" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">One News NZ</summary>
+        <description lang="en_GB">The official home of ONE News NZ</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with One News</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.pft" name="Press For Truth" version="6.0" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Press For Truth</summary>
+		<description lang="en">Press For Truth - Smashing The Pyramid One Brick At A Time!</description>
+		<platform>all</platform>
+		<website>https://pressfortruth.ca/</website>
+		<news></news>
+		<genre>documentary</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.pgatour" name="PGA Tour" version="1.2" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="pga.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">PGA Tour</summary>
+        <description lang="en_GB">Here you can find everything you need to stay up to date with the world’s foremost golf tour.. Check in for highlights from every tournament plus player interviews, player profiles, tournament previews, swing analysis and all the greatest shots and amazing moments. Teryn Schaefer presents the best social media posts from around the world of golf
+		</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with PGA Golf Tour</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.sisvsbro" name="SIS VS BRO" version="1.0" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">SIS VS BRO</summary>
+        <description lang="en_GB">Welcome to SIS vs BRO! This is where Karina and Ronald join forces to challenge each other in countless fun videos! Challenges, gaming, and more!!!</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with SIS VS BRO</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.stormchaserslive"
+       name="LiveStreaming Storm Chasers"
+       version="3.3"
+       provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Storm Chaser Streams</summary>
+    <language>en</language>
+    <description lang="en">This addon brings you live streams from storm chasers across America to your kodi so you can watch on a big screen</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tedtalks" name="TED" version="1.5" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="ted.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Ted Talks</summary>
+        <description lang="en_GB">TED Talks shares the best ideas from the TED Conference with the world, for free: trusted voices and convention-breaking mavericks, icons and geniuses, all giving the talk of their lives in 18 minutes. We post a fresh TED Talk every weekday.
+		</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with TED</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.thewiggles" name="[COLOR white]The Wiggles[/COLOR]" version="2.3" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Wiggles</summary>
+		<description lang="en"> Non offical The Wiggles - Kids addon Watch all your Favourite wiggles videos concerts, songs ,Doc etc
+		</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.toastmasters" name="Toastmasters" version="2.0" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="toast.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Toastmasters</summary>
+        <description lang="en_GB">Toastmasters International offers a proven and enjoyable way to practice communication and leadership skills.</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with Toastmasters International</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.UKwhowantstobeamillionaire" name="Who Wants To Be A Millionaire UK" version="1.5" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Who Wants To Be A Millionaire</summary>
+		<description lang="en">THE WORLD’S MOST SUCCESSFUL GAME SHOW!   Who Wants To Be A Millionaire? (UK) is a ground-breaking television game show which has captured the imagination and hearts of millions around the world: a true television phenomenon. With weekly clips of every win, every loss, every celebration and every heartbreak.</description>
+		<platform>all</platform>
+		<news></news>
+		<genre>uk</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.usbwizard" name="USB-SDCARD WIZARD" version="1.1.6" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">USB-SDCARD WIZARD</summary>
+    <description lang="en">Configure XBMC with all the Best Goodies!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.wonder" name="Wonder" version="1.3" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+        <!--<import addon="script.module.urlresolver" />-->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en">A wonderful addon</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <platform>all</platform>
+        <website/>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="plugin.video.xopen" name="xopenload NSFW" version="0.0.27.11.2017" provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    </requires>
+  <extension point="xbmc.python.pluginsource" library="xopen.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Scraper for xopenload.com adult video</summary>
+    <description lang="en">Scraper for xopenload.com adult video website</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.darkmedia" name="DarkMedia Repo" version="1.2" provider-name="DarkMedia">
+	<requires>
+        <import addon="plugin.video.intervue"/>
+        <import addon="script.ivueguide"/>
+        <import addon="xbmc.repo.ivueguide"/>
+    </requires>
+	<extension point="xbmc.addon.repository" name="DarkMedia">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/darkmedia123/repository.darkmedia/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/darkmedia123/repository.darkmedia/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/darkmedia123/repository.darkmedia/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">DarkMedia Repo</summary>
+		<description lang="en">DarkMedia Repo</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<<<<<<< HEAD
+<addon id="repository.kodiwizard" name="Kodi Wizard" version="5.0" provider-name="">
+=======
+<addon id="repository.kodiwizard" name="Kodi Wizard" version="5.1" provider-name="">
+>>>>>>> 1f5e888765ec8c1a91685fe56e27bc70dd5311aa
+	<extension point="xbmc.addon.repository" name="Kodi Wizard">
+	<requires>
+        <import addon="script.module.resolveurl" version="5.0.00" />
+        <import addon="repository.kodiwizardbackup" Version="5.0" />
+        </requires>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+	<dir>
+	    <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+    </dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kodiwizard/repository.kodiwizard/master/zips/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/kodiwizard/repository.kodiwizard/master/zips/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/kodiwizard/repository.kodiwizard/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kodi Wizard Builds</summary>
+		<description lang="en">Kodi Wizard Builds</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<<<<<<< HEAD
+<addon id="repository.kodiwizardbackup" name="Kodi Wizard Backup" version="5.0" provider-name="">
+=======
+<addon id="repository.kodiwizardbackup" name="Kodi Wizard Backup" version="4.0" provider-name="">
+>>>>>>> 1f5e888765ec8c1a91685fe56e27bc70dd5311aa
+	<extension point="xbmc.addon.repository" name="Kodi Wizard">
+	<requires>
+        <import addon="script.module.resolveurl" version="5.0.00" />
+        </requires>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+	<dir>
+	    <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+    </dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kodiwizard/repository.kodiwizard/master/zips/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/kodiwizard/repository.kodiwizard/master/zips/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/kodiwizard/repository.kodiwizard/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kodi Wizard Builds</summary>
+		<description lang="en">Kodi Wizard Builds</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<addon id="repository.kodiwizardbuild" name="Kodi Wizard Build Repo" version="1.0" provider-name="">
+	<extension point="xbmc.addon.repository" name="Kodi Wizard Build Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/kodiwizard/repository.kodiwizardbuild/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodiwizard/repository.kodiwizardbuild/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodiwizard/repository.kodiwizardbuild/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Repo for my Builds</summary>
+		<description lang="en">Repo for my Builds</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.0.4">
+  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by MattHuisman.nz</description>
+    <license>GNU General Public License, v2</license>
+    <language></language>
+    <website>http://www.matthuisman.nz</website>
+    <news>0.0.4 (18/07/2017)
+- Move repo to github</news>
+  </extension>
+</addon>
+
+<addon id="repository.simplycaz" name="Simply Caz Repo" version="1.0.2" provider-name="Simply Caz | CazWall.com">
+	<extension point="xbmc.addon.repository" name="Simply Caz Repo">
+		<info compressed="false">http://repo.cazwall.com/repolist/Plugins/addons.xml</info>
+		<checksum>http://repo.cazwall.com/repolist/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://repo.cazwall.com/repolist/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Simply Caz YouTube</summary>
+		<description>
+
+		 CazWall.com | Kodi, Tech and More! This Repo is not an Official Repo for any of the add-ons in it. It's simply an easy spot for my followers. "Peace in Caribbean, Peace in the Middle East, to God be the Glory!"
+
+		</description>
+
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.liveresolver"
+     name="LiveResolver"
+     version="0.1.49"
+     provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
+    <description lang="en"></description>
+  </extension>
+</addon>
+
+<addon id="script.module.matthuisman" name="MattHuisman.nz Common" provider-name="MattHuisman.nz" version="0.17.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Common code required by various MattHuisman.nz addons</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz</website>
+    <news>0.17.0 #db5423d (17/07/2018)
+- Merge branch 'master' into stable
+- Fix missing excemption
+- Fix first run logic
+- Move settings into clasS
+- Redo settings</news>
+  </extension>
+</addon>
+
+<addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.0.0" provider-name="Team Universal">
+        <requires>
+                <import addon="xbmc.python" version="2.1.0"/>
+                <import addon="script.module.beautifulsoup" version="3.2.1"/>
+                <import addon="script.module.futures" version="2.2.0"/>
+                <import addon="script.module.requests"/>
+                <import addon="script.module.six"/>
+		    <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
+                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
+        </requires>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.python.pluginsource" library="lib/default.py">
+                <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+                <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+                <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
+                </description>
+                <license>GPL v3</license>
+                <source>https://gitlab.com/TeamUniversal/modules4all/raw/master/script.module.universalscrapers/</source>
+        </extension>
+</addon>
+
+<addon id="script.openwindow" name="Startup Wizard" version="1.0" provider-name="TotalRevolution">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	    <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py" >
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="[login|startup]" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+		<language>en</language>
+		<license>Creative Commons 4.0-NC-ND</license>
+	</extension>
+</addon>
+
+<addon id="script.video.F4mProxy"
+	     name="F4mProxy"
+	     version="2.8.7"
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+  </extension>
+
+
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
+</addon>
+
+<addon id="service.byelightbox"
+       name="ABC"
+       version="3.0"
+       provider-name="N/A">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="yoyo.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en"></summary>
+  </extension>
+</addon>
+
+<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
+	<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
+		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install iVue2 TV Guide </summary>
+		<description>Download and install for iVue2 Tv guide addons </description>
+		<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
